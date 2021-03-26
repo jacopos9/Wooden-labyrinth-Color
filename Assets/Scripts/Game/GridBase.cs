@@ -18,6 +18,8 @@ namespace jsFramework
         {
             content = new GameObject[width, height];
             GenerateMap();
+
+
         }
 
         /// <summary>

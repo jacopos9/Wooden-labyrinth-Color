@@ -9,4 +9,5 @@ public class ObjectDataBase : ScriptableObject//database di oggeti che possono e
     public GameObject wall;
 
     //creare poi nell ispector lo scriptbleobject di questo script, e assegnare ad ogni campo il suo prefabs
+
 }
