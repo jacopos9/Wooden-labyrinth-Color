@@ -6,9 +6,9 @@ namespace jsFramework
     /// <summary>
     /// gestisce il comportamento di una tile
     /// </summary>
-    public class TileController : MonoBehaviour //Icolorable3
+    public class TileController : MonoBehaviour , Icolorable
     {
-        //Icolorable tile; 1
+        Icolorable tile; 
 
         public TileData TileData; //controller ---> va assegnato ai prefabbricati, e in questo campo mettere lo scripttableobjet proprio 2
         public Color mycolor = Color.blue;
@@ -20,7 +20,7 @@ namespace jsFramework
 
         void Start()
         {
-            //tile = GetComponent<Icolorable>(); 4
+            tile = GetComponent<Icolorable>();
         }
 
         public void ColorChange(Color color)
@@ -33,7 +33,7 @@ namespace jsFramework
         {
             if (collision.gameObject.tag == "Ball")
             {
-               // tile.ColorChange(mycolor); 5
+                tile.ColorChange(mycolor);
             }
 
         }
