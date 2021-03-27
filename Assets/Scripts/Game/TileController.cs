@@ -12,6 +12,7 @@ namespace jsFramework
 
         public TileData TileData; //controller ---> va assegnato ai prefabbricati, e in questo campo mettere lo scripttableobjet proprio 2
         public Color mycolor = Color.blue;
+
         /*
          public float red { get; set; } = 33;
          public float blue { get; set; }
