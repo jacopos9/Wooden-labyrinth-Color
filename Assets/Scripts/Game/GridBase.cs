@@ -21,7 +21,6 @@ namespace jsFramework
 
 
         }
-
         /// <summary>
         /// Map Generator base
         /// </summary>
