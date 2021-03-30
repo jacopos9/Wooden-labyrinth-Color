@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 0}
+  material: []
+  example: 0
+  expale: 
 --- !u!114 &7431677564056315877
 MonoBehaviour:
   m_ObjectHideFlags: 0
