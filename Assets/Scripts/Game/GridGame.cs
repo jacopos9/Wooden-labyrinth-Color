@@ -27,7 +27,7 @@ namespace jsFramework
 
             while (points.Count > 0)
             {
-                Vector3 position = points[Random.Range(0, points.Count)];
+                Vector3 position = points[Random.Range(0, points.Count)]; //RANDOM RANGE 0
 
                 if (currentHole < holesCount)
                 {
