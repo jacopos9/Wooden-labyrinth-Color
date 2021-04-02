@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9781c0914a6b5864d858d6d58642f53e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - Wall: {instanceID: 0}
+  - Floor: {instanceID: 0}
+  - hole: {instanceID: 0}
+  - source: {instanceID: 0}
+  - second: {instanceID: 0}
+  - Ob: {fileID: 2100000, guid: 2e5238259ca76b44a9f23091da4177a1, type: 2}
+  - oop: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

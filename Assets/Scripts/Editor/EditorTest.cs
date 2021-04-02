@@ -13,7 +13,7 @@ public class EditorTest : Editor
     
     public string example = "exp";
 
-
+    /*
     public override void OnInspectorGUI()
     {
         BallProperty ballProp = (BallProperty)target;
@@ -50,6 +50,7 @@ public class EditorTest : Editor
         }
 
     }
+    */
 
     private void OnDestroy()
     {

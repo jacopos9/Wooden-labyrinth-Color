@@ -11,11 +11,13 @@ public class BallProperty : MonoBehaviour
     public int example;
 
     public string expale;
+    
 
 
     public void ChangeColor()
     {
         GetComponentInChildren<Renderer>().material.color = Random.ColorHSV();
+       
     }
 
     public void ResetColorToOriginal()
