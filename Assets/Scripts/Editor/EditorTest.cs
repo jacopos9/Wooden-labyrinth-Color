@@ -56,8 +56,4 @@ public class EditorTest : Editor
     {
         
     }
-
-
-
-
 }

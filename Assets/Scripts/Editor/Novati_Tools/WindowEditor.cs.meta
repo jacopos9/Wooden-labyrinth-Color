@@ -3,7 +3,14 @@ guid: b4be03bd928258145a1931dadbfc0788
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - Wall: {instanceID: 0}
+  - Floor: {instanceID: 0}
+  - hole: {instanceID: 0}
+  - source: {instanceID: 0}
+  - second: {instanceID: 0}
+  - ObjectSpawn: {fileID: 5424969083705954241, guid: 48f3bb93ba85f954bb9fd3ad15e5c076, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

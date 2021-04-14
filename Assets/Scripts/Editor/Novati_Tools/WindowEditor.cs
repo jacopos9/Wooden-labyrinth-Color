@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using UnityEditor;
+using jsFramework;
 
-
+[CustomEditor(typeof(GridBase))]
 public class WindowEditor : EditorWindow
 {
     public Object Wall;
@@ -9,8 +10,14 @@ public class WindowEditor : EditorWindow
     public Object hole;
     public Object source;
     public Object second;
+    public GameObject ObjectSpawn;
+    public bool apparition;
+    public Editor GgameObject;
+    public GameObject gameObject;
+    public Vector3 position;
 
-    public  new Vector3  position;
+
+    GridBase gridBase;
     
     
     public string text = "finestra peronalizzata";
@@ -22,9 +29,14 @@ public class WindowEditor : EditorWindow
         var window = GetWindow<WindowEditor>();
         window.Show();
     }
-
+      
     void OnGUI()
     {
+        gridBase.GenerateMap();
+        
+        
+        
+        
         /*
         EditorGUILayout.BeginVertical();
         source = EditorGUILayout.ObjectField(source, typeof(Object), true);
@@ -36,12 +48,12 @@ public class WindowEditor : EditorWindow
         
         GUILayout.Label("Editor Custom", EditorStyles.boldLabel);
         EditorGUILayout.Space(80f);
-        
-        
-        
-       // position = EditorGUILayout.Vector3Field()
 
-            // vector3 field
+
+
+        position = EditorGUILayout.Vector3Field("GameObject 1:", position);
+
+        // vector3 field
 
         EditorGUILayout.BeginHorizontal();
         GUILayout.Label("Wall", EditorStyles.boldLabel);
@@ -68,17 +80,17 @@ public class WindowEditor : EditorWindow
             EditorGUILayout.HelpBox("Inserire Un Elemento", MessageType.Info);
         }
 
-        /*
-        if (GUILayout.Button("Search!"))
-        {
-            if (source == null)
-                ShowNotification(new GUIContent("No object selected for searching"));
-            else if (Help.HasHelpForObject(source))
-                Help.ShowHelpForObject(source);
-            else
-                Help.BrowseURL("http://forum.unity3d.com/search.php");
-        }
-        */
+        gameObject = (GameObject)EditorGUILayout.ObjectField(gameObject, typeof(GameObject), true);
 
+        if (gameObject != null)
+        {
+            if (GgameObject == null)
+                GgameObject = Editor.CreateEditor(gameObject);
+
+            GgameObject.OnPreviewGUI(GUILayoutUtility.GetRect(500, 500), EditorStyles.whiteLabel);
+        }
     }
+     
+
+    
 }
