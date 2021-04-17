@@ -788,7 +788,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   objectDataBase: {fileID: 11400000, guid: fa1ad6a50eb2a4d4bb141938e8669ddc, type: 2}
   holesCount: 10
-  currentHole: 0
+  currentHole: 10
 --- !u!114 &1971123307
 MonoBehaviour:
   m_ObjectHideFlags: 0

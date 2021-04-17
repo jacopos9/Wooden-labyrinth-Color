@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using jsFramework;
 
-[CustomPropertyDrawer(typeof(GridBase))]
+//[CustomPropertyDrawer(typeof(GridBase))]
 public class WindowGame : EditorWindow
 {
     public Object Ob;

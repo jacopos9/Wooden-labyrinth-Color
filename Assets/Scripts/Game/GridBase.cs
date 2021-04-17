@@ -36,5 +36,13 @@ namespace jsFramework
                 }
             }
         }
+
+        public virtual void Mot()
+        {
+
+        }
+
     }
+
+
 }

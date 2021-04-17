@@ -69,10 +69,7 @@ namespace jsFramework
 
         }
 
-        public void DestroyMap()
-        {
-            
-        }
+        
 
     }
 
