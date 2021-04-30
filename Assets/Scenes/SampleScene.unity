@@ -156,7 +156,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: b4a42de0e8a6a6446b73ccc40d2c43c9, type: 2}
+  sharedProfile: {fileID: 11400000, guid: b1192fd04307ac04097a142692b09b42, type: 2}
 --- !u!4 &60599341
 Transform:
   m_ObjectHideFlags: 0
@@ -498,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4720732285538155667, guid: 8a372ac729ae3964ea92550efbf98019, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.65
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 4720732285538155667, guid: 8a372ac729ae3964ea92550efbf98019, type: 3}
       propertyPath: m_LocalPosition.z
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7893905191317974388, guid: 8a372ac729ae3964ea92550efbf98019, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8572586371386218309, guid: 8a372ac729ae3964ea92550efbf98019, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -788,7 +788,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0, z: 0}
   objectDataBase: {fileID: 11400000, guid: fa1ad6a50eb2a4d4bb141938e8669ddc, type: 2}
   holesCount: 10
-  currentHole: 10
+  currentHole: 0
 --- !u!114 &1971123307
 MonoBehaviour:
   m_ObjectHideFlags: 0

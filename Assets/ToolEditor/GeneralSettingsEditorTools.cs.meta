@@ -8,6 +8,7 @@ MonoImporter:
   - title: {fileID: 2800000, guid: ea45a7f3c2826274e87d58f31b422582, type: 3}
   - firstAreaTexture: {instanceID: 0}
   - secondAreaTexture: {instanceID: 0}
+  - thirdAreaTexture: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

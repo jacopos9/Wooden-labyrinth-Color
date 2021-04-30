@@ -51,10 +51,12 @@ namespace jsFramework
 
             /* generate wall */
             #region Generate Wall
-            for (int x = 0; x < width; x++)
+            
+            for (int x = 0; x < width; x++) // sempre tramite il for genera il
             {
                 for (int y = 0; y < height; y++)
                 {
+                    
                     if (((y == 0 || y == height - 1) && x <= width - 1) ||
                         ((x == 0 || x == width - 1) && y <= height - 1))
                     {
@@ -63,15 +65,23 @@ namespace jsFramework
                         wall.transform.SetParent(gameObject.transform);
                     }
 
+                   /*
+
+                    if(((y == 0 ||y == height -1) && x <= width -1) ||
+                      ((x == 0 || x == width -5) && y <= height - 1))
+                    {
+                        var wall = Instantiate(objectDataBase.wall);
+                        wall.transform.position = origin + offset + new Vector3(x, 1, y) + wall.GetComponent<TileController>().TileData.size / 2;
+                        wall.transform.SetParent(gameObject.transform);
+                    }
+                    */
+
+
                 }
             }
+            
             #endregion
 
         }
-
-        
-
     }
-
-   
 }
