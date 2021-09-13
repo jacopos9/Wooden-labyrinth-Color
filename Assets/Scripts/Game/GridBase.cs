@@ -22,6 +22,8 @@ namespace jsFramework
         /// <summary>
         /// Map Generator base
         /// </summary>
+        
+        [ContextMenu("Generate Map")]
         public virtual void GenerateMap()
         {
             for (int w = 0; w < width; w++)
@@ -34,5 +36,8 @@ namespace jsFramework
                 }
             }
         }
+
     }
+
+
 }

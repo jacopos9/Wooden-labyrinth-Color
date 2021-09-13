@@ -8,7 +8,7 @@ namespace jsFramework
     /// </summary>
     public class TileController : MonoBehaviour , Icolorable
     {
-        Icolorable tile; 
+        Icolorable tile;
 
         public TileData TileData; //controller ---> va assegnato ai prefabbricati, e in questo campo mettere lo scripttableobjet proprio 2
         public Color mycolor = Color.blue;
