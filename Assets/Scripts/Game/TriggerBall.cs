@@ -9,7 +9,6 @@ public class TriggerBall : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         onBallDetected?.Invoke();
-        //Debug.Log("passato");
     }
 
 }

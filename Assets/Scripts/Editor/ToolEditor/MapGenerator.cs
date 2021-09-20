@@ -14,6 +14,7 @@ namespace jsToolGrid
                 {
                     var tile = Instantiate(asset, origin + offset + new Vector3(i, 0, j), Quaternion.identity);
                     result[i, j] = tile.GetComponent<Itile>();
+                    tile.transform.SetParent(tile.transform); //<--- togliere se da problemi
                 }
             }
 

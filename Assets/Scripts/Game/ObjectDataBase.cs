@@ -11,6 +11,4 @@ public class ObjectDataBase : ScriptableObject
     public int x;
     public int y;
 
-    //creare poi nell ispector lo scriptbleobject di questo script, e assegnare ad ogni campo il suo prefabs
-
 }

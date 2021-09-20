@@ -52,7 +52,7 @@ namespace jsFramework
             /* generate wall */
             #region Generate Wall
             
-            for (int x = 0; x < width; x++) // sempre tramite il for genera il
+            for (int x = 0; x < width; x++)
             {
                 for (int y = 0; y < height; y++)
                 {

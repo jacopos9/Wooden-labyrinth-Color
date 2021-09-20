@@ -10,7 +10,7 @@ namespace jsFramework
     {
         Icolorable tile;
 
-        public TileData TileData; //controller ---> va assegnato ai prefabbricati, e in questo campo mettere lo scripttableobjet proprio 2
+        public TileData TileData;
         public Color mycolor = Color.blue;
 
         /*
@@ -26,7 +26,7 @@ namespace jsFramework
 
         public void ColorChange(Color color)
         {
-            color = Color.yellow; //c5e8eb;
+            color = Color.green; //c5e8eb;
             gameObject.GetComponentInChildren<Renderer>().material.color = color;
         }
 
@@ -36,7 +36,6 @@ namespace jsFramework
             {
                 tile.ColorChange(mycolor);
             }
-
         }
     }
 }

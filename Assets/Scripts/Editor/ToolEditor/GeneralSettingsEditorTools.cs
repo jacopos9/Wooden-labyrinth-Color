@@ -105,7 +105,7 @@ namespace jsToolGrid
             titleRect.height = 100;
             GUI.DrawTexture(titleRect, title);
 
-            firstAreaRect.y = 100; //altezza
+            firstAreaRect.y = 100;
             firstAreaRect.x = 0;
             firstAreaRect.width = Screen.width;
             firstAreaRect.height = 150;
@@ -139,11 +139,9 @@ namespace jsToolGrid
 
         public static void OpenWindows()
         {
-            
             windows = (OptionGridArea)GetWindow(typeof(OptionGridArea));
             windows.minSize = new Vector3(200, 250);
             windows.Show();
-            
         }
 
         private void OnEnable()
@@ -174,9 +172,8 @@ namespace jsToolGrid
                 data.size = size;
                 data.name = name = "Test Grid";
 
-                
 
-                AssetDatabase.CreateAsset(data,"ToolEditor/New Grid.asset"); //
+                AssetDatabase.CreateAsset(data,"ToolEditor/New Grid.asset");
                 AssetDatabase.SaveAssets();
                 EditorUtility.FocusProjectWindow();
             }
