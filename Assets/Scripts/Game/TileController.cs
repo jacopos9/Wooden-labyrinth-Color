@@ -13,12 +13,6 @@ namespace jsFramework
         public TileData TileData;
         public Color mycolor = Color.blue;
 
-        /*
-         public float red { get; set; } = 33;
-         public float blue { get; set; }
-         public float green { get; set; }
-        */
-
         void Start()
         {
             tile = GetComponent<Icolorable>();

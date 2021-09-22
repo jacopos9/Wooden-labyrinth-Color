@@ -54,7 +54,7 @@ public class InputsSystem : MonoBehaviour,IDragHandler, IPointerDownHandler,IPoi
 
     #endregion
 
-    #region Joystick Input // <--- spostare in un altro script
+    #region Joystick Input
 
 
     public void OnDrag(PointerEventData eventData)
